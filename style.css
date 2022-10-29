@@ -1,0 +1,31 @@
+
+body {
+  height: 100vh;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  transition: .5s ease-in-out;
+}
+.dark{
+  background-color: #3a3b3c;
+color: white;
+}
+
+h1 {
+  font-size: 4rem;
+  /* color: white; */
+
+}
+.btn{
+  background-color: black;
+  color: white;
+  transition: .5s ease-in-out;
+  margin-top: 2rem;
+}
+.btn.dark {
+  background-color: white;
+  color: #3a3b3c;
+  transform:scale(0.9) ;
+}
